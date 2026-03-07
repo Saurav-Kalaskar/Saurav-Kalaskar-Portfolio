@@ -1,0 +1,150 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 10 10 10;
+  --foreground: 240 235 220;
+  --primary: 220 50 50;
+  --primary-foreground: 240 235 220;
+  --secondary: 20 20 20;
+  --secondary-foreground: 240 235 220;
+  --muted: 30 30 30;
+  --muted-foreground: 150 145 135;
+  --accent: 220 50 50;
+  --accent-foreground: 240 235 220;
+  --card: 15 15 15;
+  --card-foreground: 240 235 220;
+  --border: 40 40 40;
+  --cream: 240 235 220;
+  --red: 220 50 50;
+}
+
+.light-theme {
+  --background: 248 245 240;
+  /* Warm off-white #f8f5f0 */
+  --foreground: 26 26 26;
+  /* Deep charcoal #1a1a1a */
+  --primary: 220 50 50;
+  /* Signature vibrant red! */
+  --primary-foreground: 248 245 240;
+  --secondary: 236 232 226;
+  /* Slightly darker for contrast panels */
+  --secondary-foreground: 26 26 26;
+  --muted: 228 224 216;
+  /* Muted tags/backgrounds */
+  --muted-foreground: 100 100 100;
+  /* Grey text */
+  --accent: 220 50 50;
+  /* Red accent */
+  --accent-foreground: 248 245 240;
+  --card: 255 255 255;
+  /* Pure white cards */
+  --card-foreground: 26 26 26;
+  --border: 216 210 200;
+  /* Defined but soft borders */
+  --cream: 248 245 240;
+  /* Used on Red sections: Keep it Light! */
+  --red: 220 50 50;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgb(var(--background));
+  color: rgb(var(--foreground));
+  font-family: Inter, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(var(--background));
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(var(--border));
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(var(--primary));
+}
+
+/* Side labels - vertical text */
+.side-label {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotate(180deg);
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgb(var(--muted-foreground));
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+}
+
+/* Section panels */
+.section-panel {
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Hero typography */
+.hero-text {
+  font-family: 'Bebas Neue', cursive;
+  line-height: 0.85;
+  letter-spacing: -0.02em;
+}
+
+/* Skill tags */
+.skill-tag {
+  border: 1px solid rgba(220, 50, 50, 0.3);
+  padding: 4px 12px;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgb(var(--foreground));
+  display: inline-block;
+  transition: all 0.2s ease;
+}
+
+.skill-tag:hover {
+  background: rgb(var(--red));
+  border-color: rgb(var(--red));
+  color: #fff;
+}
+
+/* Nav links */
+.nav-link {
+  position: relative;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: rgb(var(--foreground));
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+/* Font display utility */
+.font-display {
+  font-family: 'Bebas Neue', cursive;
+}
