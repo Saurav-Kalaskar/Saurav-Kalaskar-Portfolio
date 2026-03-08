@@ -148,3 +148,53 @@ body {
 .font-display {
   font-family: 'Bebas Neue', cursive;
 }
+
+/* Hero Section Responsive Typography */
+.hero-saurav,
+.hero-kalaskar {
+  font-size: clamp(115px, 28vw, 180px);
+}
+
+.hero-saurav {
+  top: clamp(60px, 12vh, 120px);
+}
+
+.hero-img-wrap {
+  margin-top: clamp(-100px, -15vw, -160px);
+  margin-bottom: clamp(-120px, -18vw, -180px);
+}
+
+.hero-img {
+  height: clamp(550px, 75vh, 750px) !important;
+  mask-image: linear-gradient(to bottom, black 85%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, black 85%, transparent 100%);
+}
+
+.hero-kalaskar {
+  bottom: clamp(40px, 10vh, 100px);
+}
+
+@media (min-width: 768px) {
+
+  .hero-saurav,
+  .hero-kalaskar {
+    font-size: clamp(100px, 15vw, 240px);
+  }
+
+  .hero-saurav {
+    top: clamp(40px, 10vh, 120px);
+  }
+
+  .hero-img-wrap {
+    margin-top: clamp(-100px, max(-12vw, -15vh), -200px);
+    margin-bottom: clamp(-100px, max(-12vw, -15vh), -200px);
+  }
+
+  .hero-img {
+    height: clamp(450px, min(75vw, 75vh), 800px) !important;
+  }
+
+  .hero-kalaskar {
+    bottom: clamp(20px, 6vh, 80px);
+  }
+}

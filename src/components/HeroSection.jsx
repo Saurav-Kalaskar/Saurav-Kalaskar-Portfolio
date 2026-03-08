@@ -47,34 +47,26 @@ export default function HeroSection() {
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1, scaleX: 1.10 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
-            className="hero-text text-cream w-full text-center leading-[0.8]"
-            style={{ fontSize: 'clamp(40px, 13vw, 210px)', position: 'relative', top: 'clamp(40px, 8vh, 100px)', zIndex: 0 }}
+            className="hero-text text-cream w-full text-center leading-[0.8] relative z-0 hero-saurav"
           >
             SAURAV
           </motion.h1>
 
           {/* Profile photo */}
           <motion.div
-            className="relative z-40 mx-auto"
+            className="relative z-40 mx-auto hero-img-wrap"
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3, duration: 1, ease: "easeOut" }}
             style={{
               y,
-              scale,
-              marginTop: 'clamp(-80px, max(-12vw, -15vh), -160px)',
-              marginBottom: 'clamp(-80px, max(-12vw, -15vh), -160px)'
+              scale
             }}
           >
             <img
               src={PROFILE_IMAGE}
               alt="Saurav Kalaskar"
-              className="w-full h-auto object-contain drop-shadow-[0_40px_60px_rgba(0,0,0,0.5)] pointer-events-auto"
-              style={{
-                height: 'clamp(380px, min(70vw, 70vh), 740px)',
-                maskImage: 'linear-gradient(to bottom, black 85%, transparent 100%)',
-                WebkitMaskImage: 'linear-gradient(to bottom, black 75%, transparent 100%)'
-              }}
+              className="w-full h-auto object-contain drop-shadow-[0_40px_60px_rgba(0,0,0,0.5)] pointer-events-auto hero-img"
             />
           </motion.div>
 
@@ -83,8 +75,7 @@ export default function HeroSection() {
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1, scaleX: 1.10 }}
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.1 }}
-            className="hero-text text-cream w-full text-center leading-[0.8]"
-            style={{ fontSize: 'clamp(40px, 13vw, 210px)', position: 'relative', bottom: 'clamp(10px, 4vh, 60px)', zIndex: 30 }}
+            className="hero-text text-cream w-full text-center leading-[0.8] relative z-30 hero-kalaskar"
           >
             KALASKAR
           </motion.h1>
