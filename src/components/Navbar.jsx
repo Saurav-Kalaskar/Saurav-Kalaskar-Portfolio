@@ -46,17 +46,18 @@ export default function Navbar({ menuOpen, setMenuOpen, theme, setTheme }) {
 
         {/* Center: Desktop links (Hidden on mobile) */}
         <div className="hidden md:flex items-center gap-8 absolute left-1/2 -translate-x-1/2">
-          {/* Initials / Home Link */}
+          {/* Initials / Home Link (Always visible) */}
           <a
             href="#hero"
             onClick={(e) => {
               e.preventDefault();
               scrollTo('hero');
             }}
-            className="font-display text-xl text-primary hover:text-foreground transition-colors cursor-pointer mr-4"
+            className="font-display text-2xl font-bold text-foreground transition-all cursor-pointer mr-2 hover:text-primary hover:scale-105"
           >
             SK.
           </a>
+
 
           {navSections.map((section) => (
             section.id !== 'contact' && (

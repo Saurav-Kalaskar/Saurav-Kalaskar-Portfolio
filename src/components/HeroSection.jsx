@@ -90,7 +90,7 @@ export default function HeroSection() {
       {/* Bottom bar */}
       <div className="absolute bottom-0 left-0 w-full border-t border-cream/20 px-4 md:px-12 py-4 md:py-6 flex justify-between items-center z-30 bg-primary/90 backdrop-blur">
         <span className="font-display text-sm text-cream/60 tracking-widest hidden md:block">01 / 04</span>
-        <span className="font-display text-xs md:text-sm text-cream/90 tracking-[0.15em] md:tracking-[0.3em] text-center w-full md:w-auto">
+        <span className="absolute left-1/2 -translate-x-1/2 font-display text-xs md:text-sm text-cream/90 tracking-[0.15em] md:tracking-[0.3em] text-center w-full md:w-auto px-4">
           FULL STACK · AI · CLOUD · SOFTWARE ENGINEER
         </span>
         <span className="font-display text-sm text-cream/60 tracking-widest hidden md:block">MS-IT · ASU · 4.0 GPA</span>
