@@ -40,14 +40,6 @@ export default function HeroSection() {
         style={{ opacity, y: contentY }}
         className="relative w-full h-full flex flex-col items-center justify-center p-4 md:p-8 mt-12 md:mt-0 pointer-events-none"
       >
-        <motion.p
-          initial={{ opacity: 0, y: -10 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.2 }}
-          className="font-display text-cream/90 tracking-[0.4em] text-xs md:text-sm mb-4 md:mb-8 z-30"
-        >
-          FULL STACK · AI · CLOUD
-        </motion.p>
 
         <div className="relative w-full flex flex-col items-center justify-center">
           {/* SAURAV */}
@@ -96,9 +88,11 @@ export default function HeroSection() {
       </motion.div>
 
       {/* Bottom bar */}
-      <div className="absolute bottom-0 left-0 w-full border-t border-cream/20 px-8 py-4 md:px-12 md:py-6 flex justify-between items-center z-30 bg-primary/90 backdrop-blur">
+      <div className="absolute bottom-0 left-0 w-full border-t border-cream/20 px-4 md:px-12 py-4 md:py-6 flex justify-between items-center z-30 bg-primary/90 backdrop-blur">
         <span className="font-display text-sm text-cream/60 tracking-widest hidden md:block">01 / 04</span>
-        <span className="font-display text-sm text-cream/90 tracking-[0.3em]">SOFTWARE ENGINEER</span>
+        <span className="font-display text-xs md:text-sm text-cream/90 tracking-[0.15em] md:tracking-[0.3em] text-center w-full md:w-auto">
+          FULL STACK · AI · CLOUD · SOFTWARE ENGINEER
+        </span>
         <span className="font-display text-sm text-cream/60 tracking-widest hidden md:block">MS-IT · ASU · 4.0 GPA</span>
       </div>
     </section>
