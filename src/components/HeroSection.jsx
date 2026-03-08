@@ -45,17 +45,17 @@ export default function HeroSection() {
           {/* SAURAV */}
           <motion.h1
             initial={{ opacity: 0, scale: 0.95 }}
-            animate={{ opacity: 1, scale: 1, scaleX: 1.30 }}
+            animate={{ opacity: 1, scale: 1, scaleX: 1.10 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="hero-text text-cream w-full text-center leading-[0.8]"
-            style={{ fontSize: 'clamp(72px, min(18vw, 25vh), 260px)', position: 'relative', top: 'clamp(40px, 8vh, 100px)', zIndex: 0 }}
+            style={{ fontSize: 'clamp(40px, 13vw, 210px)', position: 'relative', top: 'clamp(40px, 8vh, 100px)', zIndex: 0 }}
           >
             SAURAV
           </motion.h1>
 
           {/* Profile photo */}
           <motion.div
-            className="relative z-20 mx-auto"
+            className="relative z-40 mx-auto"
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3, duration: 1, ease: "easeOut" }}
@@ -71,9 +71,9 @@ export default function HeroSection() {
               alt="Saurav Kalaskar"
               className="w-full h-auto object-contain drop-shadow-[0_40px_60px_rgba(0,0,0,0.5)] pointer-events-auto"
               style={{
-                height: 'clamp(340px, min(65vw, 65vh), 680px)',
-                maskImage: 'linear-gradient(to bottom, black 80%, transparent 100%)',
-                WebkitMaskImage: 'linear-gradient(to bottom, black 80%, transparent 100%)'
+                height: 'clamp(380px, min(70vw, 70vh), 740px)',
+                maskImage: 'linear-gradient(to bottom, black 85%, transparent 100%)',
+                WebkitMaskImage: 'linear-gradient(to bottom, black 75%, transparent 100%)'
               }}
             />
           </motion.div>
@@ -81,10 +81,10 @@ export default function HeroSection() {
           {/* KALASKAR */}
           <motion.h1
             initial={{ opacity: 0, scale: 0.95 }}
-            animate={{ opacity: 1, scale: 1, scaleX: 1.30 }}
+            animate={{ opacity: 1, scale: 1, scaleX: 1.10 }}
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.1 }}
             className="hero-text text-cream w-full text-center leading-[0.8]"
-            style={{ fontSize: 'clamp(72px, min(18vw, 25vh), 260px)', position: 'relative', zIndex: 0 }}
+            style={{ fontSize: 'clamp(40px, 13vw, 210px)', position: 'relative', bottom: 'clamp(10px, 4vh, 60px)', zIndex: 30 }}
           >
             KALASKAR
           </motion.h1>
@@ -92,7 +92,7 @@ export default function HeroSection() {
       </motion.div>
 
       {/* Bottom bar */}
-      <div className="absolute bottom-0 left-0 w-full border-t border-cream/20 px-4 md:px-12 py-4 md:py-6 flex justify-between items-center z-30 bg-primary/90 backdrop-blur">
+      <div className="absolute bottom-0 left-0 w-full border-t border-cream/20 px-4 md:px-12 py-4 md:py-6 flex justify-between items-center z-50 bg-primary/90 backdrop-blur">
         <span className="font-display text-sm text-cream/60 tracking-widest hidden md:block">01 / 04</span>
         <span className="absolute left-1/2 -translate-x-1/2 font-display text-xs md:text-sm text-cream/90 tracking-[0.15em] md:tracking-[0.3em] text-center w-full md:w-auto px-4">
           FULL STACK · AI · CLOUD · SOFTWARE ENGINEER
