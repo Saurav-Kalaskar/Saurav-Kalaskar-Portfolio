@@ -22,7 +22,7 @@ export default function App() {
   }, [theme])
 
   return (
-    <div className="relative bg-background text-foreground cursor-none transition-colors duration-500">
+    <div className="relative bg-background text-foreground md:cursor-none transition-colors duration-500">
       <CustomCursor />
       <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} theme={theme} setTheme={setTheme} />
       <main>

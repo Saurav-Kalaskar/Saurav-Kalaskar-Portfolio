@@ -35,7 +35,7 @@ export default function CustomCursor() {
     }, []);
 
     return (
-        <>
+        <div className="hidden md:block">
             <div
                 className="fixed top-0 left-0 rounded-full border pointer-events-none z-[9999] flex items-center justify-center transition-all duration-300 ease-out"
                 style={{
@@ -55,6 +55,6 @@ export default function CustomCursor() {
                     backgroundColor: 'rgb(240, 235, 220)',
                 }}
             ></div>
-        </>
+        </div>
     );
 }
