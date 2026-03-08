@@ -45,10 +45,10 @@ export default function HeroSection() {
           {/* SAURAV */}
           <motion.h1
             initial={{ opacity: 0, scale: 0.95 }}
-            animate={{ opacity: 1, scale: 1 }}
+            animate={{ opacity: 1, scale: 1, scaleX: 1.30 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="hero-text text-cream w-full text-center leading-[0.8]"
-            style={{ fontSize: 'clamp(72px, min(18vw, 25vh), 260px)', position: 'relative', zIndex: 0 }}
+            style={{ fontSize: 'clamp(72px, min(18vw, 25vh), 260px)', position: 'relative', top: 'clamp(40px, 8vh, 100px)', zIndex: 0 }}
           >
             SAURAV
           </motion.h1>
@@ -62,22 +62,26 @@ export default function HeroSection() {
             style={{
               y,
               scale,
-              marginTop: 'clamp(-60px, max(-10vw, -12vh), -120px)',
-              marginBottom: 'clamp(-60px, max(-10vw, -12vh), -120px)'
+              marginTop: 'clamp(-80px, max(-12vw, -15vh), -160px)',
+              marginBottom: 'clamp(-80px, max(-12vw, -15vh), -160px)'
             }}
           >
             <img
               src={PROFILE_IMAGE}
               alt="Saurav Kalaskar"
               className="w-full h-auto object-contain drop-shadow-[0_40px_60px_rgba(0,0,0,0.5)] pointer-events-auto"
-              style={{ height: 'clamp(280px, min(45vw, 50vh), 520px)' }}
+              style={{
+                height: 'clamp(340px, min(65vw, 65vh), 680px)',
+                maskImage: 'linear-gradient(to bottom, black 80%, transparent 100%)',
+                WebkitMaskImage: 'linear-gradient(to bottom, black 80%, transparent 100%)'
+              }}
             />
           </motion.div>
 
           {/* KALASKAR */}
           <motion.h1
             initial={{ opacity: 0, scale: 0.95 }}
-            animate={{ opacity: 1, scale: 1 }}
+            animate={{ opacity: 1, scale: 1, scaleX: 1.30 }}
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.1 }}
             className="hero-text text-cream w-full text-center leading-[0.8]"
             style={{ fontSize: 'clamp(72px, min(18vw, 25vh), 260px)', position: 'relative', zIndex: 0 }}
