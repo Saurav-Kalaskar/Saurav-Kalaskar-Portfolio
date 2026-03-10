@@ -52,10 +52,10 @@ export default function SkillsSection() {
       className="section-panel bg-background border-t border-border/30"
     >
       {/* Side labels */}
-      <div className="absolute left-2 md:left-4 top-1/2 -translate-y-1/2 z-10">
+      <div className="absolute left-1 md:left-4 top-1/2 -translate-y-1/2 z-10">
         <span className="side-label">SKILLS</span>
       </div>
-      <div className="absolute right-2 md:right-4 top-1/2 -translate-y-1/2">
+      <div className="absolute right-3 md:right-4 top-1/2 -translate-y-1/2">
         <span className="side-label">TECH STACK</span>
       </div>
 

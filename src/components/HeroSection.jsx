@@ -22,10 +22,10 @@ export default function HeroSection() {
       className="section-panel bg-primary flex flex-col justify-center items-center relative overflow-hidden h-screen"
     >
       {/* Side labels */}
-      <div className="absolute left-2 md:left-8 top-1/2 -translate-y-1/2 z-20">
+      <div className="absolute left-1 md:left-8 top-1/2 -translate-y-1/2 z-20">
         <span className="side-label side-label-light">SOFTWARE ENGINEER</span>
       </div>
-      <div className="absolute right-2 md:right-8 top-1/2 -translate-y-1/2 z-20">
+      <div className="absolute right-3 md:right-8 top-1/2 -translate-y-1/2 z-20">
         <span className="side-label side-label-light">ARIZONA STATE UNIVERSITY</span>
       </div>
 
