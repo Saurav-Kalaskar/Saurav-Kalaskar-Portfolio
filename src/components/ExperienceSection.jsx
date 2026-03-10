@@ -43,10 +43,10 @@ export default function ExperienceSection() {
       className="section-panel bg-background border-t border-border/30"
     >
       {/* Side labels */}
-      <div className="absolute left-4 top-1/2 -translate-y-1/2 hidden md:block z-10">
+      <div className="absolute left-2 md:left-4 top-1/2 -translate-y-1/2 z-10">
         <span className="side-label">SOFTWARE ENGINEER</span>
       </div>
-      <div className="absolute right-4 top-1/2 -translate-y-1/2 hidden md:block">
+      <div className="absolute right-2 md:right-4 top-1/2 -translate-y-1/2">
         <span className="side-label">WORK HISTORY</span>
       </div>
 

@@ -29,10 +29,10 @@ export default function ResumeSection() {
       className="section-panel bg-background border-t border-border/30 relative"
     >
       {/* Side labels */}
-      <div className="absolute left-4 top-1/2 -translate-y-1/2 hidden md:block">
+      <div className="absolute left-2 md:left-4 top-1/2 -translate-y-1/2">
         <span className="side-label">RESUME</span>
       </div>
-      <div className="absolute right-4 top-1/2 -translate-y-1/2 hidden md:block">
+      <div className="absolute right-2 md:right-4 top-1/2 -translate-y-1/2">
         <span className="side-label">DOWNLOAD CV</span>
       </div>
 

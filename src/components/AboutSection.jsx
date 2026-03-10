@@ -22,10 +22,10 @@ export default function AboutSection() {
       className="section-panel bg-background"
     >
       {/* Side labels */}
-      <div className="absolute left-4 top-1/2 -translate-y-1/2 hidden md:block">
+      <div className="absolute left-2 md:left-4 top-1/2 -translate-y-1/2">
         <span className="side-label">ABOUT</span>
       </div>
-      <div className="absolute right-4 top-1/2 -translate-y-1/2 hidden md:block">
+      <div className="absolute right-2 md:right-4 top-1/2 -translate-y-1/2">
         <span className="side-label">BIODATA</span>
       </div>
 
