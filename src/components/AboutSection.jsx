@@ -70,7 +70,7 @@ export default function AboutSection() {
             className="text-base text-muted-foreground leading-relaxed mb-6 font-light"
           >
             Previously at Rocket Mortgage, I engineered full-stack platforms handling billions
-            of transactions using microservices and cloud-native frameworks—earning a Software
+            of transactions using microservices and cloud-native frameworks, earning a Software
             Engineer Intern return offer.
           </motion.p>
 

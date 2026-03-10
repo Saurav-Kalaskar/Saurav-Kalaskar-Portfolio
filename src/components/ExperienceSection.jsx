@@ -10,7 +10,7 @@ const experiences = [
     position: 'SOFTWARE ENGINEER INTERN',
     highlights: [
       'Built full-stack Mortgage Fee Setup with Angular 17, ASP.NET Core & NestJS microservices',
-      'Led ECS-to-EKS migration with Terraform IaC — cut release downtime by 40%',
+      'Led ECS-to-EKS migration with Terraform IaC, cut release downtime by 40%',
       'Refactored legacy subsystems, optimized Redis caching improving API response by 23%',
       'Modernized testing from Cypress to Playwright, achieved 95% platform coverage',
       'Integrated Auth0 SAML SSO, monitored via Splunk & AWS CloudWatch',
@@ -24,7 +24,7 @@ const experiences = [
     position: 'SOFTWARE ENGINEER II',
     highlights: [
       'Built enterprise Questionnaire Management Tool with Angular + ASP.NET Core',
-      'D3.js dashboards and Generative AI cards for 5,000+ employees — cut response time by 40%',
+      'D3.js dashboards and Generative AI cards for 5,000+ employees, cut response time by 40%',
       'Optimized MS SQL Server for 10,000+ employee skills data across Asia Pacific',
       'Architected CI/CD pipelines on Azure DevOps with full API testing via Postman',
       'Promoted to SE II for high-impact Agile sprint executions and cost reduction',
@@ -43,8 +43,8 @@ export default function ExperienceSection() {
       className="section-panel bg-background border-t border-border/30"
     >
       {/* Side labels */}
-      <div className="absolute left-4 top-1/2 -translate-y-1/2 hidden md:block">
-        <span className="side-label">EXPERIENCE</span>
+      <div className="absolute left-4 top-1/2 -translate-y-1/2 hidden md:block z-10">
+        <span className="side-label side-label-light">SOFTWARE ENGINEER</span>
       </div>
       <div className="absolute right-4 top-1/2 -translate-y-1/2 hidden md:block">
         <span className="side-label">WORK HISTORY</span>

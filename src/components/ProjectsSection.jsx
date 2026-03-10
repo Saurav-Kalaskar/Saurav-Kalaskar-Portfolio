@@ -10,11 +10,11 @@ const projectDetails = {
       'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80',
       'https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=800&q=80',
     ],
-    extended: `RealStream is a production-grade short-video streaming platform built with a polyglot microservices architecture. The platform ingests content through a dedicated Python FastAPI scraper service that interfaces with the YouTube Data API v3, normalizing metadata and storing it across dual databases — PostgreSQL for relational data (users, playlists, follows) and MongoDB for flexible video metadata.
+    extended: `RealStream is a production-grade short-video streaming platform built with a polyglot microservices architecture. The platform ingests content through a dedicated Python FastAPI scraper service that interfaces with the YouTube Data API v3, normalizing metadata and storing it across dual databases, PostgreSQL for relational data (users, playlists, follows) and MongoDB for flexible video metadata.
 
 The frontend is built on Next.js 19 with the new App Router, leveraging React Server Components for near-instant initial loads and edge-cached API routes. Authentication uses Google OAuth2 with stateless JWT tokens, enabling horizontal scaling without session stores.
 
-Docker Compose orchestrates the entire stack locally, with each microservice independently deployable. The video feed algorithm ranks content by engagement score — a weighted function of views, likes, and watch-time — updated on a scheduled cron job.`,
+Docker Compose orchestrates the entire stack locally, with each microservice independently deployable. The video feed algorithm ranks content by engagement score, a weighted function of views, likes, and watch-time, updated on a scheduled cron job.`,
   },
   ROCKETMIND: {
     images: [
@@ -22,7 +22,7 @@ Docker Compose orchestrates the entire stack locally, with each microservice ind
       'https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80',
       'https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?w=800&q=80',
     ],
-    extended: `RocketMind is an AI-powered code analysis platform developed during the Rocket Mortgage internal hackathon. It integrates AWS Bedrock's latest LLMs through a custom Model Context Protocol (MCP) server — enabling structured, tool-augmented reasoning over private codebases.
+    extended: `RocketMind is an AI-powered code analysis platform developed during the Rocket Mortgage internal hackathon. It integrates AWS Bedrock's latest LLMs through a custom Model Context Protocol (MCP) server, enabling structured, tool-augmented reasoning over private codebases.
 
 The system authenticates 550+ private GitHub repositories through Auth0 SSO with fine-grained AWS IAM permissions, ensuring every code query is scoped to the authenticated user's access level. The Angular frontend streams LLM responses token-by-token via Server-Sent Events for a real-time chat feel.
 
@@ -32,7 +32,7 @@ RocketMind was the only intern-led project to reach the Rocket Mortgage Hackatho
     images: [
       'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80',
       'https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=800&q=80',
-      'https://images.unsplash.com/photo-1604076913837-52ab5629fde9?w=800&q=80',
+      'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&q=80',
     ],
     extended: `SpyPro is a real-time precision tracking system that achieves floor-level indoor accuracy by combining GPS coordinates with a custom LRU-cached floor estimation algorithm. The 3D visualization layer uses Mapbox GL JS's 3D Buildings API to render live position updates directly on photorealistic building models.
 
@@ -50,7 +50,7 @@ const projects = [
     date: 'February 2026',
     tech: ['Java Spring Boot', 'Python FastAPI', 'Next.js 19', 'PostgreSQL', 'MongoDB', 'Docker', 'OAuth2', 'JWT'],
     description:
-      'A full-stack TikTok-style short video platform using polyglot microservices — Java Spring Boot and Python FastAPI scraper services — with Google OAuth2, stateless JWT, and YouTube Data API v3 ingestion.',
+      'A full-stack TikTok-style short video platform using polyglot microservices, Java Spring Boot and Python FastAPI scraper services, with Google OAuth2, stateless JWT, and YouTube Data API v3 ingestion.',
     link: 'https://github.com/Saurav-Kalaskar/',
     live: 'https://realstream.site',
   },
@@ -99,7 +99,7 @@ function ProjectRow({ project, index, onOpen }) {
         <p className="font-display text-6xl text-cream/20 group-hover:text-cream/30 transition-colors mb-4">
           {project.number}
         </p>
-        <h3 className="font-display text-3xl text-cream tracking-wide mb-1 group-hover:text-primary transition-colors">
+        <h3 className="font-display text-3xl text-cream tracking-wide mb-1 group-hover:text-cream transition-colors">
           {project.title}
         </h3>
         <p className="font-display text-xs text-cream/60 tracking-widest mb-2">

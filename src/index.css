@@ -89,6 +89,11 @@ body {
   font-weight: 500;
 }
 
+/* For labels on red/dark backgrounds */
+.side-label-light {
+  color: rgb(var(--cream)) !important;
+}
+
 /* Section panels */
 .section-panel {
   min-height: 100vh;
@@ -118,7 +123,7 @@ body {
 .skill-tag:hover {
   background: rgb(var(--red));
   border-color: rgb(var(--red));
-  color: #fff;
+  color: rgb(var(--cream));
 }
 
 /* Nav links */
