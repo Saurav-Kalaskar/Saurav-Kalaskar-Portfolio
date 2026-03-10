@@ -44,7 +44,7 @@ export default function ExperienceSection() {
     >
       {/* Side labels */}
       <div className="absolute left-4 top-1/2 -translate-y-1/2 hidden md:block z-10">
-        <span className="side-label side-label-light">SOFTWARE ENGINEER</span>
+        <span className="side-label">SOFTWARE ENGINEER</span>
       </div>
       <div className="absolute right-4 top-1/2 -translate-y-1/2 hidden md:block">
         <span className="side-label">WORK HISTORY</span>
