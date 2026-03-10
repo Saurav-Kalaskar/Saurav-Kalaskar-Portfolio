@@ -3,10 +3,10 @@ import { motion, useInView } from 'framer-motion'
 import { Github, Linkedin, Code2 } from 'lucide-react'
 
 const stats = [
-  { label: 'Current Role', value: 'SWE Intern' },
+  { label: 'Current Role', value: 'Incoming SWE Intern' },
   { label: 'Company', value: 'Rocket Mortgage' },
   { label: 'GPA', value: '4.00 / 4.00' },
-  { label: 'Experience', value: '2+ Years' },
+  { label: 'Experience', value: '3 Years' },
   { label: 'Location', value: 'Tempe, AZ' },
   { label: 'Status', value: 'Open to Work' },
 ]
@@ -59,10 +59,12 @@ export default function AboutSection() {
             transition={{ delay: 0.4 }}
             className="text-base text-muted-foreground leading-relaxed mb-6 font-light"
           >
-            Saurav is a Software Engineer and MS Information Technology student at Arizona
-            State University with a perfect 4.0 GPA. Currently interning at Rocket Mortgage,
-            he builds full-stack platforms handling billions of mortgage transactions using
-            microservices, cloud-native architectures, and modern frontend frameworks.
+            I am a Software Engineer and MS Information Technology student at Arizona
+            State University with a perfect 4.0 GPA. During my internship at Rocket Mortgage
+            from May to December 2025, I built full-stack platforms handling billions of
+            mortgage transactions using microservices, cloud-native architectures, and
+            modern frontend frameworks. I will be returning to them in May 2026 as a
+            Software Engineer Intern.
           </motion.p>
 
           <motion.p
@@ -71,8 +73,8 @@ export default function AboutSection() {
             transition={{ delay: 0.5 }}
             className="text-base text-muted-foreground leading-relaxed mb-8 font-light"
           >
-            Previously at Accenture, he developed enterprise-scale tools for 10,000+ employees
-            across Asia Pacific. He is passionate about building impactful systems with Java,
+            Previously at Accenture, I developed enterprise-scale tools for 10,000+ employees
+            across Asia Pacific. I am passionate about building impactful systems with Java,
             TypeScript, and cloud technologies.
           </motion.p>
 
