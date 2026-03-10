@@ -60,20 +60,27 @@ export default function AboutSection() {
             className="text-base text-muted-foreground leading-relaxed mb-6 font-light"
           >
             I am a Software Engineer and MS Information Technology student at Arizona
-            State University with a perfect 4.0 GPA. During my internship at Rocket Mortgage
-            from May to December 2025, I built full-stack platforms handling billions of
-            mortgage transactions using microservices, cloud-native architectures, and
-            modern frontend frameworks. I will be returning to them in May 2026 as a
-            Software Engineer Intern.
+            State University graduating in May 2026 with a perfect 4.0 GPA.
           </motion.p>
 
           <motion.p
             initial={{ opacity: 0, y: 10 }}
             animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ delay: 0.5 }}
+            className="text-base text-muted-foreground leading-relaxed mb-6 font-light"
+          >
+            Previously at Rocket Mortgage, I engineered full-stack platforms handling billions
+            of transactions using microservices and cloud-native frameworks—earning a Software
+            Engineer Intern return offer.
+          </motion.p>
+
+          <motion.p
+            initial={{ opacity: 0, y: 10 }}
+            animate={inView ? { opacity: 1, y: 0 } : {}}
+            transition={{ delay: 0.6 }}
             className="text-base text-muted-foreground leading-relaxed mb-8 font-light"
           >
-            Previously at Accenture, I developed enterprise-scale tools for 10,000+ employees
+            Prior to that at Accenture, I developed enterprise-scale tools for 10,000+ employees
             across Asia Pacific. I am passionate about building impactful systems with Java,
             TypeScript, and cloud technologies.
           </motion.p>
