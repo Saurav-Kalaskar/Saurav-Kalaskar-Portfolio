@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Menu, X, Github, Linkedin, Code2, FileText, ExternalLink, Sun, Moon } from 'lucide-react'
 
-const RESUME_URL = 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/user_69ac96a72d809c1e6539e454/8ae2d856d_Saurav_Kalaskar_Resume.pdf'
+const RESUME_URL = '/Saurav_Kalaskar_Resume.pdf'
 
 const navSections = [
   { id: 'about', label: 'ABOUT' },
@@ -174,13 +174,7 @@ export default function Navbar({ menuOpen, setMenuOpen, theme, setTheme }) {
                   <p className="font-display text-xs tracking-[0.3em] text-muted-foreground mb-4">
                     [ RÉSUMÉ ]
                   </p>
-                  <a
-                    href={RESUME_URL}
-                    download
-                    className="flex items-center gap-3 font-display text-sm text-foreground hover:text-primary transition-colors tracking-widest"
-                  >
-                    <FileText size={14} /> DOWNLOAD RÉSUMÉ PDF · 2026
-                  </a>
+
                   <a
                     href={RESUME_URL}
                     target="_blank"

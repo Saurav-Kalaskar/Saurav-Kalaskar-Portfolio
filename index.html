@@ -7,39 +7,10 @@
     href="/favicon.png"
     rel="icon" type="image/png">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <link href="https://saurav-code-craft.base44.app/manifest.json" rel="manifest">
+  <link href="/manifest.json" rel="manifest">
   <title>Saurav Kalaskar Portfolio</title>
 
   <script type="module">
-    let lastPath = "";
-    function getPageNameFromPath(path) {
-      const segments = path.split("/").filter(Boolean);
-      return segments[0] || null;
-    }
-    function trackPageView() {
-      const path = window.location.pathname;
-      if (path === lastPath) return;
-      lastPath = path;
-      const pageName = getPageNameFromPath(path) || "home";
-      const appId = "69ac9722e07e46a25d605580";
-      const serverUrl = "https://base44.app" || "";
-      if (!appId) return;
-      fetch(`${serverUrl}/app-logs/${appId}/log-user-in-app/${pageName}`, {
-        method: "POST",
-      }).catch(() => { });
-    }
-    const originalPushState = history.pushState.bind(history);
-    history.pushState = function (...args) {
-      originalPushState(...args);
-      trackPageView();
-    };
-    const originalReplaceState = history.replaceState.bind(history);
-    history.replaceState = function (...args) {
-      originalReplaceState(...args);
-      trackPageView();
-    };
-    window.addEventListener("popstate", trackPageView);
-    trackPageView();
   </script>
 
   <meta content="Saurav Kalaskar Portfolio" property="og:title">
@@ -49,7 +20,7 @@
   <meta
     content="/favicon.png"
     property="og:image">
-  <meta content="https://saurav-code-craft.base44.app" property="og:url">
+  <meta content="https://saurav-kalaskar.me" property="og:url">
   <meta content="website" property="og:type">
   <meta content="Saurav Kalaskar Portfolio" property="og:site_name">
   <meta content="summary_large_image" name="twitter:card">
@@ -60,55 +31,16 @@
   <meta
     content="/favicon.png"
     name="twitter:image">
-  <meta content="https://saurav-code-craft.base44.app" name="twitter:url">
+  <meta content="https://saurav-kalaskar.me" name="twitter:url">
   <meta
     content="A cinematic, dark-themed personal portfolio showcasing professional experience, technical projects, and academic background for recruiters and collaborators."
     name="description">
   <meta content="yes" name="mobile-web-app-capable">
   <meta content="black" name="apple-mobile-web-app-status-bar-style">
   <meta content="Saurav Kalaskar Portfolio" name="apple-mobile-web-app-title">
-  <link href="https://saurav-code-craft.base44.app" rel="canonical">
+  <link href="https://saurav-kalaskar.me" rel="canonical">
 
-  <script async="true" data-app-id="69ac9722e07e46a25d605580" data-platform-url="https://app.base44.com"
-    src="/static/js/badge.js"></script>
 
-  <style>
-    @keyframes badge-spin {
-      from {
-        transform: rotate(0deg);
-      }
-
-      to {
-        transform: rotate(360deg);
-      }
-    }
-
-    .badge-spinner {
-      animation: badge-spin 1s linear infinite;
-    }
-
-    @keyframes base44-fade-in {
-      from {
-        opacity: 0;
-      }
-
-      to {
-        opacity: 1;
-      }
-    }
-
-    @keyframes base44-scale-in {
-      from {
-        opacity: 0;
-        transform: scale(0.95);
-      }
-
-      to {
-        opacity: 1;
-        transform: scale(1);
-      }
-    }
-  </style>
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

@@ -109,13 +109,7 @@ export default function ResumeSection() {
 
             {/* Download buttons */}
             <div className="flex flex-col gap-3">
-              <a
-                href={RESUME_URL}
-                download
-                className="flex items-center justify-center gap-2 font-display text-xs text-foreground border border-border px-4 py-3 hover:bg-primary hover:border-primary hover:text-cream transition-all tracking-widest"
-              >
-                <Download size={12} /> DOWNLOAD RÉSUMÉ PDF · 2026
-              </a>
+
               <a
                 href={RESUME_URL}
                 target="_blank"
