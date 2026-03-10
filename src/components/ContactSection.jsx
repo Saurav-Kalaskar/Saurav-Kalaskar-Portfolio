@@ -53,6 +53,8 @@ export default function ContactSection() {
               <p className="font-display text-xs tracking-widest text-cream/50 mb-3">EMAIL</p>
               <a
                 href="mailto:skalaska@asu.edu"
+                target="_blank"
+                rel="noreferrer"
                 className="flex items-center gap-3 text-cream text-sm hover:text-cream/70 transition-colors font-light"
               >
                 <Mail size={14} className="text-cream/60" />
@@ -126,6 +128,8 @@ export default function ContactSection() {
 
             <a
               href="mailto:skalaska@asu.edu"
+              target="_blank"
+              rel="noreferrer"
               className="flex items-center gap-3 border border-cream/20 px-6 py-4 hover:border-cream/50 hover:bg-black/10 transition-all group"
             >
               <Mail size={16} className="text-cream/60 group-hover:text-cream transition-colors" />

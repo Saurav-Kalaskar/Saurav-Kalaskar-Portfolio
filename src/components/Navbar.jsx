@@ -188,6 +188,8 @@ export default function Navbar({ menuOpen, setMenuOpen, theme, setTheme }) {
                 <div className="space-y-2 border-t border-border/30 pt-6">
                   <a
                     href="mailto:skalaska@asu.edu"
+                    target="_blank"
+                    rel="noreferrer"
                     className="block font-display text-xs text-muted-foreground hover:text-foreground transition-colors tracking-widest"
                   >
                     skalaska@asu.edu
