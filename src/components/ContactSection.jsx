@@ -14,10 +14,10 @@ export default function ContactSection() {
     >
       {/* Side labels */}
       <div className="absolute left-4 top-1/2 -translate-y-1/2 hidden md:block">
-        <span className="side-label text-cream/50">CONTACT</span>
+        <span className="side-label side-label-light">CONTACT</span>
       </div>
       <div className="absolute right-4 top-1/2 -translate-y-1/2 hidden md:block">
-        <span className="side-label text-cream/50">GET IN TOUCH</span>
+        <span className="side-label side-label-light">GET IN TOUCH</span>
       </div>
 
       <div className="max-w-6xl mx-auto px-6 md:px-16 py-20 md:py-32 flex flex-col justify-between min-h-screen">

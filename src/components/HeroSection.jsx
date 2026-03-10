@@ -23,10 +23,10 @@ export default function HeroSection() {
     >
       {/* Side labels */}
       <div className="absolute left-4 md:left-8 top-1/2 -translate-y-1/2 z-20 hidden md:block">
-        <span className="side-label text-cream/80">SOFTWARE ENGINEER</span>
+        <span className="side-label side-label-light">SOFTWARE ENGINEER</span>
       </div>
       <div className="absolute right-4 md:right-8 top-1/2 -translate-y-1/2 z-20 hidden md:block">
-        <span className="side-label text-cream/80">ARIZONA STATE UNIVERSITY</span>
+        <span className="side-label side-label-light">ARIZONA STATE UNIVERSITY</span>
       </div>
 
       <div className="absolute top-8 left-8 md:top-12 md:left-12 text-cream/80 font-display text-xs tracking-[0.3em] z-20">
