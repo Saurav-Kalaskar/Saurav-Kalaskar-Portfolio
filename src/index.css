@@ -78,7 +78,7 @@ body {
 
 /* Side labels - vertical text */
 .side-label {
-  display: inline-block;
+  display: block;
   writing-mode: vertical-rl;
   text-orientation: mixed;
   transform: rotate(180deg);

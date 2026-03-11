@@ -296,14 +296,14 @@ export default function ProjectsSection() {
         className="section-panel bg-primary"
       >
         {/* Side labels */}
-        <div className="absolute left-1 md:left-4 top-1/2 -translate-y-1/2">
-          <span className="side-label side-label-light">PROJECTS</span>
+        <div className="absolute left-4 top-1/2 -translate-y-1/2">
+          <span className="side-label text-cream/50">PROJECTS</span>
         </div>
-        <div className="absolute right-3 md:right-4 top-1/2 -translate-y-1/2">
-          <span className="side-label side-label-light">SELECTED WORK</span>
+        <div className="absolute right-4 top-1/2 -translate-y-1/2">
+          <span className="side-label text-cream/50">SELECTED WORK</span>
         </div>
 
-        <div className="max-w-6xl mx-auto px-6 md:px-16 py-20 md:py-32">
+        <div className="max-w-6xl mx-auto px-8 md:px-16 py-32">
           {/* Header */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}

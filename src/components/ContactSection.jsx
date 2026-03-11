@@ -13,14 +13,14 @@ export default function ContactSection() {
       className="section-panel bg-primary"
     >
       {/* Side labels */}
-      <div className="absolute left-1 md:left-4 top-1/2 -translate-y-1/2">
-        <span className="side-label side-label-light">CONTACT</span>
+      <div className="absolute left-4 top-1/2 -translate-y-1/2">
+        <span className="side-label text-cream/50">CONTACT</span>
       </div>
-      <div className="absolute right-3 md:right-4 top-1/2 -translate-y-1/2">
-        <span className="side-label side-label-light">GET IN TOUCH</span>
+      <div className="absolute right-4 top-1/2 -translate-y-1/2">
+        <span className="side-label text-cream/50">GET IN TOUCH</span>
       </div>
 
-      <div className="max-w-6xl mx-auto px-6 md:px-16 py-20 md:py-32 flex flex-col justify-between min-h-screen">
+      <div className="max-w-6xl mx-auto px-8 md:px-16 py-32 flex flex-col justify-between min-h-screen">
         {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}

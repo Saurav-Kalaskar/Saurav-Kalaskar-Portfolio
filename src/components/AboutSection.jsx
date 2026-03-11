@@ -22,14 +22,14 @@ export default function AboutSection() {
       className="section-panel bg-background"
     >
       {/* Side labels */}
-      <div className="absolute left-1 md:left-4 top-1/2 -translate-y-1/2">
+      <div className="absolute left-4 top-1/2 -translate-y-1/2">
         <span className="side-label">ABOUT</span>
       </div>
-      <div className="absolute right-3 md:right-4 top-1/2 -translate-y-1/2">
+      <div className="absolute right-4 top-1/2 -translate-y-1/2">
         <span className="side-label">BIODATA</span>
       </div>
 
-      <div className="max-w-6xl mx-auto px-6 md:px-16 py-20 md:py-32 grid lg:grid-cols-2 gap-12 lg:gap-24 items-center">
+      <div className="max-w-6xl mx-auto px-8 md:px-16 py-32 grid md:grid-cols-2 gap-16 items-center">
         {/* Left: Name + bio */}
         <div>
           <motion.p

@@ -29,14 +29,14 @@ export default function ResumeSection() {
       className="section-panel bg-background border-t border-border/30 relative"
     >
       {/* Side labels */}
-      <div className="absolute left-1 md:left-4 top-1/2 -translate-y-1/2">
+      <div className="absolute left-4 top-1/2 -translate-y-1/2">
         <span className="side-label">RESUME</span>
       </div>
-      <div className="absolute right-3 md:right-4 top-1/2 -translate-y-1/2">
+      <div className="absolute right-4 top-1/2 -translate-y-1/2">
         <span className="side-label">DOWNLOAD CV</span>
       </div>
 
-      <div className="max-w-6xl mx-auto px-6 md:px-16 py-20 md:py-32">
+      <div className="max-w-6xl mx-auto px-8 md:px-16 py-32">
         {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}

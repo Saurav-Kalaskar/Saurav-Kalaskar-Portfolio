@@ -22,17 +22,17 @@ export default function HeroSection() {
       className="section-panel bg-primary flex flex-col justify-center items-center relative overflow-hidden h-screen"
     >
       {/* Side labels */}
-      <div className="absolute left-1 md:left-8 top-1/2 -translate-y-1/2 z-20">
-        <span className="side-label side-label-light">SOFTWARE ENGINEER</span>
+      <div className="absolute left-4 top-1/2 -translate-y-1/2 flex flex-col items-center gap-4 z-10">
+        <span className="side-label text-cream/60">SOFTWARE ENGINEER</span>
       </div>
-      <div className="absolute right-3 md:right-8 top-1/2 -translate-y-1/2 z-20">
-        <span className="side-label side-label-light">ARIZONA STATE UNIVERSITY</span>
+      <div className="absolute right-4 top-1/2 -translate-y-1/2 flex flex-col items-center gap-4 z-10">
+        <span className="side-label text-cream/60">ARIZONA STATE UNIVERSITY</span>
       </div>
 
-      <div className="absolute top-8 left-8 md:top-12 md:left-12 text-cream/80 font-display text-xs tracking-[0.3em] z-20">
+      <div className="absolute top-20 left-8 text-cream/60 font-display text-xs tracking-widest z-20">
         01 / 04
       </div>
-      <div className="absolute top-8 right-8 md:top-12 md:right-12 text-cream/80 font-display text-xs tracking-[0.3em] z-20">
+      <div className="absolute top-20 right-8 text-cream/60 font-display text-xs tracking-widest z-20">
         01 / 04
       </div>
 
