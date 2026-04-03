@@ -145,7 +145,7 @@ export default function Navbar({ menuOpen, setMenuOpen, theme, setTheme }) {
                     [ SOCIAL LINKS ]
                   </p>
                   <a
-                    href="https://github.com/Saurav-Kalaskar"
+                    href="https://github.com/Saurav-Kalaskar/"
                     target="_blank"
                     rel="noreferrer"
                     className="flex items-center gap-3 font-display text-sm text-foreground hover:text-primary transition-colors tracking-widest"
@@ -153,7 +153,7 @@ export default function Navbar({ menuOpen, setMenuOpen, theme, setTheme }) {
                     <Github size={14} /> GITHUB
                   </a>
                   <a
-                    href="https://linkedin.com/in/saurav-kalaskar"
+                    href="https://linkedin.com/in/saurav-kalaskar/"
                     target="_blank"
                     rel="noreferrer"
                     className="flex items-center gap-3 font-display text-sm text-foreground hover:text-primary transition-colors tracking-widest"
@@ -161,7 +161,7 @@ export default function Navbar({ menuOpen, setMenuOpen, theme, setTheme }) {
                     <Linkedin size={14} /> LINKEDIN
                   </a>
                   <a
-                    href="https://leetcode.com/saurav-kalaskar"
+                    href="https://leetcode.com/u/sauravkalaskar7/"
                     target="_blank"
                     rel="noreferrer"
                     className="flex items-center gap-3 font-display text-sm text-foreground hover:text-primary transition-colors tracking-widest"
