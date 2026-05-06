@@ -16,7 +16,7 @@ Engineered deterministic RAG pipeline with Qdrant vector retrieval over payer po
 
 Integrated NVIDIA Nemotron 3 via OpenAI‑compatible APIs for policy‑grounded letter generation, with strict‑mode error controls and fallback generation paths for resilient runtime behavior.
 
-Deployed end‑to‑end service on Google Cloud Run with Docker and Auth0 support for secure clinician authentication.`,
+Deployed end‑to‑end service on Google Cloud Run with Docker and Auth0 support for secure clinician authentication. All components are containerized and orchestrated via Docker Compose for reproducible local development and seamless CI/CD pipelines.`,
   },
   REALSTREAM: {
     images: [
@@ -63,7 +63,7 @@ const projects = [
     subtitle: 'Healthcare AI Platform',
     date: 'Apr 2026',
     tech: ['Python', 'FastAPI', 'Qdrant', 'LLM', 'RAG', 'NVIDIA Nemotron', 'AI-Evals', 'Docker', 'Google Cloud Run', 'Auth0'],
-    description: 'AI‑assisted healthcare platform improving prior‑authorization workflows with policy‑grounded draft letters and audit trail.',
+    description: 'AI‑assisted healthcare platform improving prior‑authorization workflows with policy‑grounded draft letters and audit trail. All components are containerized and orchestrated via Docker Compose for reproducible local development and seamless CI/CD pipelines.',
     link: 'https://github.com/Saurav-Kalaskar/time-to-therapy',
     live: 'https://time-to-therapy-4todzcphia-uc.a.run.app/',
   },

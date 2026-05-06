@@ -12,15 +12,15 @@ const skillCategories = [
   },
   {
     category: 'CLOUD & DATA',
-    skills: ['AWS', 'Azure', 'DynamoDB', 'PostgreSQL', 'MS SQL Server', 'Snowflake', 'Redis', 'MongoDB'],
+    skills: ['AWS', 'Azure', 'DynamoDB', 'PostgreSQL', 'MS SQL Server', 'Snowflake', 'Redis', 'MongoDB', 'Google Cloud Run'],
   },
   {
     category: 'DEVOPS & TOOLS',
-    skills: ['Docker', 'Amazon EKS', 'SQS', 'SNS', 'Kinesis', 'CloudWatch', 'Kafka', 'Terraform', 'CI/CD', 'Jenkins', 'Git'],
+    skills: ['Docker', 'Docker Compose', 'Amazon EKS', 'SQS', 'SNS', 'Kinesis', 'CloudWatch', 'Kafka', 'Terraform', 'CI/CD', 'Jenkins', 'Git'],
   },
   {
     category: 'ML & AI',
-    skills: ['PyTorch', 'OpenCV', 'Pandas', 'AWS Bedrock', 'Generative AI', 'MCP Server'],
+    skills: ['PyTorch', 'OpenCV', 'Pandas', 'AWS Bedrock', 'Generative AI', 'MCP Server', 'Qdrant', 'NVIDIA Nemotron', 'OpenAI API', 'RAG', 'AI-Evals'],
   },
 ]
 
