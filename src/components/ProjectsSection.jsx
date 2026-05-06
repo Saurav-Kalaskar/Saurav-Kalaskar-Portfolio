@@ -4,6 +4,20 @@ import { ExternalLink, Github, X, Link } from 'lucide-react'
 
 // Extended project details for modal
 const projectDetails = {
+  "TIME-TO-THERAPY": {
+    images: [
+      'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800&q=80',
+      'https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?w=800&q=80',
+      'https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=800&q=80',
+    ],
+    extended: `Built AI‑assisted prior‑authorization platform using Python FastAPI and production‑focused web workflows, implementing clinician‑facing modules for coverage matrix exploration, copilot drafting, and audit‑ready history tracking.
+
+Engineered deterministic RAG pipeline with Qdrant vector retrieval over payer policy documents, adding schema validation and dead‑letter handling to improve reliability of evidence‑grounded policy lookups.
+
+Integrated NVIDIA Nemotron 3 via OpenAI‑compatible APIs for policy‑grounded letter generation, with strict‑mode error controls and fallback generation paths for resilient runtime behavior.
+
+Deployed end‑to‑end service on Google Cloud Run with Docker and Auth0 support for secure clinician authentication.`,
+  },
   REALSTREAM: {
     images: [
       'https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=800&q=80',
@@ -43,6 +57,16 @@ The application is deployed on Render with automatic deploys from the main branc
 }
 
 const projects = [
+  {
+    number: '01',
+    title: 'TIME-TO-THERAPY',
+    subtitle: 'Healthcare AI Platform',
+    date: 'Apr 2026',
+    tech: ['Python', 'FastAPI', 'Qdrant', 'LLM', 'RAG', 'NVIDIA Nemotron', 'AI-Evals', 'Docker', 'Google Cloud Run', 'Auth0'],
+    description: 'AI‑assisted healthcare platform improving prior‑authorization workflows with policy‑grounded draft letters and audit trail.',
+    link: 'https://github.com/Saurav-Kalaskar/time-to-therapy',
+    live: 'https://time-to-therapy-4todzcphia-uc.a.run.app/',
+  },
   {
     number: '01',
     title: 'REALSTREAM',
