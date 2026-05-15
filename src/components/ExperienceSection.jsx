@@ -9,7 +9,7 @@ const experiences = [
     period: 'May 2025 – Dec 2025',
     position: 'SOFTWARE ENGINEER INTERN',
     highlights: [
-      'Built full-stack Mortgage Fee Setup with Angular 17, ASP.NET Core & NestJS microservices',
+      'Built full-stack Mortgage Fee Setup with Angular 17, Java Spring Boot & NestJS microservices',
       'Led ECS-to-EKS migration with Terraform IaC, cut release downtime by 40%',
       'Refactored legacy subsystems, optimized Redis caching improving API response by 23%',
       'Modernized testing from Cypress to Playwright, achieved 95% platform coverage',
@@ -23,7 +23,7 @@ const experiences = [
     period: 'Oct 2022 – Jul 2024',
     position: 'SOFTWARE ENGINEER II',
     highlights: [
-      'Built enterprise Questionnaire Management Tool with Angular + ASP.NET Core',
+      'Built enterprise Questionnaire Management Tool with Angular + Java Spring Boot',
       'D3.js dashboards and Generative AI cards for 5,000+ employees, cut response time by 40%',
       'Optimized MS SQL Server for 10,000+ employee skills data across Asia Pacific',
       'Architected CI/CD pipelines on Azure DevOps with full API testing via Postman',
